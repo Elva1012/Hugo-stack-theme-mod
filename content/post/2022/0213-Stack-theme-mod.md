@@ -1,8 +1,8 @@
 ---
-title: "Hugo | Hugo-stack-theme主题魔改版"
-date: 2022-02-13T03:02:52+08:00
+title: "冥想|我的偏见与实践"
+date: 2022-03-26T03:02:52+08:00
 lastmod: 2022-02-13T03:02:52+08:00
-description: 问的人比较多，我又比较懒，干脆做了一套样板间。
+description: 最近的新发现
 tags:
   - Hugo
 categories:
@@ -11,191 +11,73 @@ image:
 slug: stack-theme-mod
 
 ---
-Github仓库地址：[Mantyke](https://github.com/Mantyke)/[stack-theme-mod](https://github.com/Mantyke/Hugo-stack-theme-mod)
+最开始是从乔布斯传听说冥想，我知道他热爱冥想，但他也热衷于一些东方的佛教文化，甚至专程去往印度修炼。因此当时，冥想对我来说还是带有一些宗教色彩，有一些神神叨叨的神秘感。
 
-本主题由[CaiJimmy](https://github.com/CaiJimmy)制作并[发布](https://github.com/CaiJimmy/hugo-theme-stack)，这个仓库是由[Mantyke](https://mantyke.icu/)修改的魔改版本
+ 我还以为，冥想就是得摆出打坐的姿势，闭上眼睛，just thinking.我想象不到这有什么意思，哪怕有一些科学结论表明它对人有很多好处，我还是缺乏兴趣。
 
-预览：[Demo站](https://stack-theme-mod.vercel.app/)
+但是等我真正去了解它之后，我发现和我想象中大不一样。它并不必然得和宗教有所联系，也并不必然和瑜伽有所联系，它不需要打坐，最重要的是，冥想不是just thinking,而是**not thinking**.
 
-<br>
+有实验证明，人脑海里一天会产生多达4万个念头。我们的大脑每天被大量且杂乱的思绪装满了。当我想到某件事的时候，我甚至可以连续在脑内上演一段长长的剧情，仿佛我已经经历过这段故事，并且因此而产生情绪的起伏，更不要说我如何处理这4万个碎片思绪。也有很多朋友，告诉我，不知道自己在想什么，想法太多了。但是仔细想想，这些想法，值得我们沉湎其中，花费大量的时间去想，去费神吗？
+      
+这些想法的出现，是潜意识的力量。但是我们并不是完全无法控制它们。
+冥想就是这样一个工具，它让我们找到一个开关，或者更准确的比喻是，它让我找到一块名叫“shut up"的肌肉，我可以有意识的训练这块肌肉，去控制我的思维，让它安静下来，不再那么混乱无序。这就是冥想的科学原理。
 
-## 使用方式
+无论何时，当你闭上眼睛尝试安静下来，专心关注自己的呼吸，你的脑海一定会冒出各种各样的声音，它是不可能安静下来的。如果你不知道你应该控制它，也不知道你可以控制它，你就会被这个声音带走。它提出什么，你就思考什么，你完全被它裹挟，脑袋里一团乱麻，也充满了情绪。这个时候，你和它是一体的。
 
-**从零建立博客**：Fork仓库到自己账号下，用Github 注册 Vercel，依次点击Overview → New Project → import刚刚Fork的仓库，设置`FRAMEWORK PRESET`为Hugo → 点击`Environment Variables`，设置`NAME`为`HUGO_VERSION`，`Value`为`Hugo版本号（如0.89.0）` → 点击Add → 点击Deploy，稍等十来秒即可部署完成。下载仓库到本地后使用Github Desktop更新文章。（注，本地预览需安装Hugo，具体请参照[Hugo | 一起动手搭建个人博客吧](https://mantyke.icu/2021/hugo-build-blog/)相关内容）
-
-**旧博客更换主题**：不同主题方式不同，推荐只保留原博客的content文件夹，迁移到本仓库content文件夹后再按情况调整。
-
+如果你意识到你可以控制它，你就有了**旁观者的力量**，你可以从它的控制中脱离出来，可以清晰的看到，它又在说话了，然后你平静的推开这个思绪，让你的注意力回到你的呼吸上，这个过程，就叫冥想。
+哪怕是短短的几分钟的冥想过程中，你都有可能数次被思绪带走，但是每一次你把它推开，让注意力回到呼吸上，都是一种锻炼，在这个过程中你的控制思维的能力就得到了提高，专注力会变得更好。   
 
 
-<br>
+由于冥想让你能以一个旁观者的角度去觉察各种念头的出现和离开，你会更加平静和淡定，那些痛苦的，焦虑的，困扰的思绪，都显得不那么重要了，它们只是来了又走，不值得你的情绪起伏。无论你升起什么念头，要知道一切都是正常的，你可以只观察，不评价。在这个过程中，你会更了解自己，知道自己被哪些思绪困扰，知道自己在意什么，恐惧什么。
 
-## 魔改内容
+冥想就像运动一样，是对大脑的一种训练，你看不到快速而显著的变化，需要长期的坚持，你的感受才会明显。
 
-- 调整文章页面为三栏显示（代码来自[ShadowySpirits](https://github.com/ShadowySpirits/hugo-theme-stack)）
-- 文章按年份分类
-- 增加文章字数统计与站点总字数、总篇数显示
-- 修改全站字体为思源宋体
-- 增加一个引用短代码（短代码来自[荷戟独彷徨](https://guanqr.com/)）
-- 添加一个友情链接页面并设置为双栏（友情链接代码来自[Bore](https://bore.vip/archives/3bf3725e/#%E6%B7%BB%E5%8A%A0%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5-shortcodes)，双栏代码来自[BB_Roin](https://tech.randomwaves.space/posts/21-12-08-make-hugo-stack-theme-links-display-in-two-columns/)）
-- 一系列基于个人美观喜好的CSS修改
-- 右侧栏增加Categories小部件
+但是我尝试了一次冥想之后，我就再也没停下来，它不是一种我刻意想要去坚持的事情，而是成了我的一种需要，因为冥想本身，实在是太舒服了。
 
-<br>
+如果你还没有尝试过冥想，我强烈建议你去试一试，特别是对于每天思绪很多，压力很大的人，以及一些高强度的脑力工作者。
+我们很容易关注到自己的身体疲劳，躺下休息，或者做个按摩。但是大脑的疲劳很少被重视，在冥想的时候，你可以感到自己大脑完全的放空，陷入一种清醒的无意识，你保持清醒，但除了呼吸，什么也不想，真的很舒服。
 
-## 部分使用说明
+Ray Dalio也坚持冥想，他甚至说冥想对他的帮助比其他任何事物都重要，是他保持平静的关键和创造力的来源，“ and it feels good, It feels like going on a vacation , going into nothingness"
 
-### 引用样式短代码
+Nothingness 虚无。我喜欢这个词，它让我感觉远离一切压力和痛苦。
 
-（注：实际使用请补全花括号
+除了舒服之外，冥想带给我的一个明显的好处还有，我已经能更快更明确的觉知到，自己各种念头的出现了，简单来说就是，当我走神了，我能很快就意识到我走神了。
+长时间的冥想，可以让人更快的觉察到思绪的产生。而觉察本身就是控制，当我觉察到了，就说明我已经抽身而出了。
 
-```fallback
-{< quote >}}}
-三月，因久旱不雨，苏轼赴郿，祈雨于太白山之上清宫。数日后，虽有微雨，父老以为不足，于是，再陪宋太守亲往祭祷，回程路上，便见道中有云气自山中来，如群马奔突而至车座左右，苏轼一时好奇心起，开笼收云归家，作《攓云篇》。
-{< /quote >}}
-```
-{{< quote >}} 三月，因久旱不雨，苏轼赴郿，祈雨于太白山之上清宫。数日后，虽有微雨，父老以为不足，于是，再陪宋太守亲往祭祷，回程路上，便见道中有云气自山中来，如群马奔突而至车座左右，苏轼一时好奇心起，开笼收云归家，作《攓云篇》。 {{< /quote >}} 
-<br>
+在做梦的时候，你能觉察到自己在做梦吗？如果不能，你只会随着梦的起伏而开心，或者难过，或者害怕，或者焦虑。如果你觉察到了你在做梦，那你就会知道，你不必为梦里的事情而难过或者害怕，你已经全身而退，至少，你和梦之间，产生了一段距离。
+觉察让你和思绪也产生了一段距离，这段距离，能给你选择的权利，你可以选择甚至改变你反馈的方式。
 
-### 友情链接使用方式
+而在我了解冥想之前，因为缺乏概念，大脑一直就是混沌的状态，任何一个想法来了，我就会被带走，很难保持警觉，可以说觉察次数为0.每天有意识的去锻炼这种能力，我想我会做得越来越好，但还是必须强调，这绝不是立竿见影的事情。
 
-友链头像放在`/assets/link-img`，友链数据放在`/data/links.json`
-
-```
-[
-    {
-        "title": "小球飞鱼",
-        "website": "https://mantyke.icu/",
-        "image": "mantyke.png",
-     "description": "我们会一起遇见鲸鱼吗？"
-    },
-	{
-        "title": "友情链接2",
-        "website": "",
-        "image": "",
-     "description": ""
-    }
-]
-```
+有研究做了一个实验，给一群人制造一个惊吓，有冥想习惯的人，会比其他人更快的从这个惊吓中平静下来，不是说受惊吓的程度更低，而是他们不太容易沉溺于其中，能更快的使自己的情绪不受影响。
+我感觉冥想，或许本质上是培养一种习惯，一种处理情绪和思绪的方法，通过每天的坚持，不断复习和强化这种习惯和意识，当我在越来越多的瞬间可以有知觉的去处理我的想法和情绪。
+现在每当我遇到一些不愉快的事情，忍不住在脑海里反复回想，我就会警觉，有意识的抽回思绪，并且对自己说，“It's OK " 和 "Is this useful?"
+it's ok  既是原谅自己，也是包容他人。
+Is this useful?  解放自己的情绪
 
 <br>
 
-### 修改页尾信息
+那么冥想究竟怎么做？
+虽然我现在觉得冥想其实什么都不需要，只需要设一个闹钟，闭上眼睛，然后关注自己呼吸的每一个起伏，每一个细节，如果有思绪打断你，不要紧，继续关注呼吸就行。
 
-站点名称及建站时间请修改以下代码
+但是我刚尝试的时候，好像我坐在这里，闭上眼睛，我还是不知道我应该做什么，有什么讲究。
+所以我还是需要一些引导，体验也会更好。
 
-站点名称及链接：
+我最先使用的是Ten percent,有7天免费试用，因为不便宜，所以陆续尝试了一些别的app，还有小程序，还有b站上的视频。
+可能是我最初的冥想体验让我先入为主了，我不喜欢那些中文的引导，他们喜欢说很多话，仿佛要灌心灵鸡汤，对我而言，我想要更多安静的间隔，也不必要有鸟叫虫鸣，森林或者海浪的背景音，我只需要我的呼吸，我的平静。
 
-```
-#位置：layout/partials/footer/footer.html
+所以比较下来，我最喜欢Balance，也是一个英文的app，可以免费试用1年，体验和ten percent相比甚至更好。界面简约很容易上手。英文用词很简单，没听懂的引导直接忽略也没事。终生会员是六百多，如果能坚持到1年，我想也值得续费。
+如果你实在介意英文，那么小程序有“呼吸冥想” 还有“heartly Lab"，一些中文app不让试用就要求收费，恕我不能接受，也没有找到的可推荐。
 
-    <section class="copyright">
-        &copy; 
-        {{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
-            {{ .Site.Params.footer.since }} - 
-        {{ end }}
-        {{ now.Format "2006" }} <a href="https://stack-theme-mod.vercel.app/">Example Site</a>·<i class="fas fa-bell"></i> <a id="days">0</a>Days<br>
-      {{$var :=  $scratch.Get "total"}}{{$var = div $var 100.0}}{{$var = math.Ceil $var}}{{$var = div $var 10.0}}共书写了{{$var}}k字·共 {{ len (where .Site.RegularPages "Section" "post") }}篇文章</br><span><p>
-    </section>
-```
+对于冥想的实践，我也只是一个初级学者，简单说一下我是怎么做的。
+为了保持习惯，我会选一个固定的时间，比如晚上九点，在一个无人打扰的环境下。
+最开始我是躺着或者瘫着，也就是全身无力的放松，我发现这样我会陷入真正的无意识，我太累了以至于没有想法会出现，多过一会我可能就会睡着了。
+虽然冥想是很随意，用你最舒服的方式怎样都可以。但是最好还是在Relax和Alert之间，找一个平衡，于是我现在是端坐着，保持脊椎直立。闭上眼睛开始感受呼吸，接下来可以交给app，他会教你呼吸的时候默数，会教你感受呼吸时候身体的触感和变化。
 
-```
-#位置：layout/partials/footer/footer.html
+至于为什么一直要提到呼吸，因为你做不到什么都不想，你必须专注于某一个点，而呼吸，是你随时携带的最好的关注点，而且它是动态的，不至于太无聊而完全无法吸引你的注意力。其实这个关注点也可以是你的身体，可以是你闭上眼睛，在当下，能切实感受到的任何事物。 
 
-var s1 = '2022-02-13';//设置为建站时间
-s1 = new Date(s1.replace(/-/g, "/"));
-s2 = new Date();
-var days = s2.getTime() - s1.getTime();
-var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
-document.getElementById('days').innerHTML = number_of_days;
-```
+随着训练的次数增加，你会学习一些其他的技能，比如body scan,和label。这些技能都是为了训练你集中注意力的能力，教你专注的关注当下，关注自己身体的感受，以及平静的，以旁观者的视角去处理来自身体和大脑的刺激，不必拘泥于形式，用你最舒服的方式，怎样都可以。
 
 <br>
 
-## 其他常见修改
 
-### 设置博客头像
-
-位置：`/assets/img`，请将头像命名为`avatar.png`，替换原头像文件
-
-### 删除博客头像
-
-位置：`/layouts/partials/sidebar/left.html`，注释或删去以下部分：
-
-```
-        {{ with .Site.Params.sidebar.avatar }}
-            {{ if (default true .enabled) }}
-            <figure class="site-avatar">
-                <a href="{{ .Site.BaseURL | relLangURL }}">
-                {{ if not .local }}
-                    <img src="{{ .src }}" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
-                {{ else }}
-                    {{ $avatar := resources.Get (.src) }}
-                    
-                    {{ if $avatar }}
-                        {{ $avatarResized := $avatar.Resize "300x" }}
-                        <img src="{{ $avatarResized.RelPermalink }}" width="{{ $avatarResized.Width }}"
-                            height="{{ $avatarResized.Height }}" class="site-logo" loading="lazy" alt="Avatar">
-                    {{ else }}
-                        {{ errorf "Failed loading avatar from %q" . }}
-                    {{ end }}
-                {{ end }}
-                </a>
-                {{ with $.Site.Params.sidebar.emoji }}
-                    <span class="emoji">{{ . }}</span>
-                {{ end }}
-            </figure>
-            {{ end }}
-        {{ end }}
-```
-
-### 修改博客背景颜色
-
-位置：`assets\scss\variables.scss`
-
-```
---body-background: #f6f6f6;
-```
-
-### 指定首页分类标签颜色
-
-位置：`content\categories`，创建分类同名文件夹后，在文件夹内创建`_index.md`文件，写入frontmatter
-
-```
-title: "做猫贵在折腾" //分类名称
-description: "简介 Blablabla" //不需要可以删了
-image: "ffxiv_20210830_230509_817.png" //分类题图，不需要也可以删了
-style:
-    background: "#80aba9" //分类标签底色
-    color: "#fff"
----
-```
-
-### 配置各类图标
-
-图标放在：`/assets/icons`，svg格式，配置方式参考[文档](https://docs.stack.jimmycai.com/zh/configuration/custom-menu)
-
-<br>
-
-### 其他参考
-
-其他我站修改及Hugo博客搭建教程可参见以下文章，作者代码水平为0，写作时间跨度较大，参考时务必注意：
-
-[Hugo | 一起动手搭建个人博客吧](https://mantyke.icu/2021/hugo-build-blog/)
-
-[Hugo | 看中 Stack 主题的归档功能，搬家并做修改](https://mantyke.icu/2021/f9f0ec87/)
-
-[Hugo | 另一篇 Stack 主题装修记录](https://mantyke.icu/2021/a08f1963/)
-
-[Hugo | 为 Blog 增加评论区](https://mantyke.icu/2021/comment/)
-
-[Hugo | 以正确姿势自动添加文章最后更新时间](https://mantyke.icu/2021/47a5331b/)
-
-[Hugo | 在文章中插入轮播图片](https://mantyke.icu/2021/cf2cf0fb/)
-
-[Hugo | 第三篇 Stack 主题装修记录，堂堂再临！](https://mantyke.icu/2022/stack-theme-furnish03/)
-
-<br>
-
-如果您喜欢或使用这个魔改版主题成功搭建了自己的个人博客，欢迎到我的[个人博客](https://mantyke.icu/2022/stack-theme-mod/)中留言告诉我，我会很开心的！
-
-<br>
