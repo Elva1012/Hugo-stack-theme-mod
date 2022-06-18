@@ -1,6 +1,6 @@
 ---
-title: "Aboutsex"
-description: 
+title: "27.3关于性"
+description: 性和吃饭的区别究竟在哪里？
 date: 2022-06-18T11:24:47+08:00
 image: 
 math: 

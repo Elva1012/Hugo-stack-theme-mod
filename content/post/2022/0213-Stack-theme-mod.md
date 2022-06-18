@@ -6,7 +6,6 @@ description: 最近的新发现
 tags:
   - Hugo
 categories:
-  - 甘普基本变形定律
 image: 
 slug: stack-theme-mod
 
@@ -79,5 +78,4 @@ Is this useful?  解放自己的情绪
 随着训练的次数增加，你会学习一些其他的技能，比如body scan,和label。这些技能都是为了训练你集中注意力的能力，教你专注的关注当下，关注自己身体的感受，以及平静的，以旁观者的视角去处理来自身体和大脑的刺激，不必拘泥于形式，用你最舒服的方式，怎样都可以。
 
 <br>
-
 

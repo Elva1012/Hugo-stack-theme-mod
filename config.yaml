@@ -2,7 +2,7 @@ baseurl: https://example.com
 languageCode: en-us
 theme: stack
 paginate: 5
-title: Example Site
+title: Elva
 
 # Change it to your Disqus shortname before using
 disqusShortname: stack
@@ -30,7 +30,7 @@ params:
     favicon:
 
     footer:
-        since: 2020
+        since: 2022
         customText:
 
     dateFormat:
@@ -38,8 +38,8 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        
+        subtitle: I am learning,not expressing.
         avatar:
             enabled: true
             local: true
@@ -133,18 +133,18 @@ params:
             id:
     widgets:
         enabled:
+            
             - search
             - toc
             - categories
             - archives
-            - tag-cloud
-
+            
+            
 
         archives:
             limit: 5
 
-        tagCloud:
-            limit: 10
+       
 
     opengraph:
         twitter:
@@ -165,7 +165,7 @@ params:
         toggle: true
 
         # Available values: auto, light, dark
-        default: auto
+        default: dark
 
     imageProcessing:
         cover:
@@ -188,12 +188,7 @@ menu:
               icon: home
 
     social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
-          params:
-              icon: brand-github
-
+        
         - identifier: twitter
           name: Twitter
           url: https://twitter.com
@@ -205,11 +200,10 @@ related:
     threshold: 60
     toLower: false
     indices:
-        - name: tags
-          weight: 100
-
+        
         - name: categories
           weight: 200
+        
 
 markup:
     goldmark:
