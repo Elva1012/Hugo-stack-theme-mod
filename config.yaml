@@ -134,7 +134,7 @@ params:
     widgets:
         enabled:
             
-            
+            - search
             - toc
             - categories
             - archives
