@@ -1,4 +1,4 @@
-baseurl: https://example.com
+baseurl: https://hugo-stack-theme-mod-xi.vercel.app
 languageCode: en-us
 theme: stack
 paginate: 5
@@ -54,7 +54,7 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: true
+        enabled: false
         provider: disqus
 
         disqusjs:
@@ -138,8 +138,7 @@ params:
             - toc
             - categories
             - archives
-            
-            
+                       
 
         archives:
             limit: 5
