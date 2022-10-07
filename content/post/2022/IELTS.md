@@ -1,7 +1,7 @@
 ---
 title: "雅思准备经验"
 description: 侥幸一次过，雅思好像也不难
-date: 2022-06-18
+date: 2022-10-07
 image: 
 math: 
 license: 
